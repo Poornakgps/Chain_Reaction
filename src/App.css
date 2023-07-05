@@ -1,0 +1,30 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.typing-animation {
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  animation: typing 5s infinite;
+ color:rgb(255, 0, 255);
+ text-align: center;
+ font-size: 3em;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+    transform: scaleX(0);
+  }
+  100% {
+    width: 100%;
+    transform: scaleX(1);
+  }
+}
+
+
